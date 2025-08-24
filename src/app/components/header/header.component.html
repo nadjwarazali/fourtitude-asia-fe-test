@@ -1,0 +1,11 @@
+<header>
+  <div>
+    <img src="assets/images/logo.svg" />
+  </div>
+  <button class="menu-button" (click)="isMenuOpen = !isMenuOpen">☰</button>
+  <nav [class.open]="isMenuOpen">
+    <a href="#dev-section">Development & Integration</a>
+    <a href="#uiux-section">UI & UX Design</a>
+    <a href="#connect-section">Connect</a>
+  </nav>
+</header>
